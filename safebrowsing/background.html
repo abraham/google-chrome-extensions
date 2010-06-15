@@ -1,0 +1,11 @@
+<html>
+<head>
+<script>
+  // Called when the user clicks on the browser action.
+  chrome.browserAction.onClicked.addListener(function(tab) {
+    var action_url = "javascript:window.location = 'http://www.google.com/safebrowsing/report_phish/?url=" + tab.url + "';";
+    chrome.tabs.update(tab.id, {url: action_url});
+  });
+</script>
+</head>
+</html>

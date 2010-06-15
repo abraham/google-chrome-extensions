@@ -1,0 +1,20 @@
+{
+  "name": "Safe Browsing",
+  "browser_action": {
+    "default_icon": "blacklist.png",
+    "default_title": "Report site to Google"
+  },
+  "description": "Report phishing sites to Google for inclusion in the Safe Browsing blacklist.",
+  "version": "1",
+  "background_page": "background.html",
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "icons": {
+    "16": "poseurtech.png",
+    "48": "poseurtech.png",
+    "128": "poseurtech.png"
+  }
+}
