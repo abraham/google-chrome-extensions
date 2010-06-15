@@ -1,0 +1,20 @@
+{
+  "name": "Trst.me",
+  "background_page": "background.html",
+  "content_scripts": [ {
+    "all_frames": true,
+    "js": [ "jquery-1.4.2.min.js", "content_script.js" ],
+    "matches": [ 
+      "http://twitter.com/*",
+      "https://twitter.com/*"
+    ],
+    "run_at": "document_end"
+  } ],
+  "description": "Displays the trst.me rating of Twitter accounts inline on their profiles.",
+  "permissions": [ "http://api.infochimps.com/" ],
+  "version": "5",
+  "icons": {
+    "48": "poseurtech.png",
+    "128": "poseurtech.png"
+  }
+}
