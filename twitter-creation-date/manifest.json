@@ -1,0 +1,20 @@
+{
+  "name": "Twitter Creation Date",
+  "background_page": "background.html",
+  "content_scripts": [ {
+    "all_frames": true,
+    "js": [ "jquery-1.4.2.min.js", "content_script.js" ],
+    "matches": [ 
+      "http://twitter.com/*",
+      "https://twitter.com/*"
+    ],
+    "run_at": "document_end"
+  } ],
+  "description": "Displays the creation date of Twitter accounts on their profiles.",
+  "permissions": [ "https://api.twitter.com/" ],
+  "version": "2",
+  "icons": {
+    "48": "poseurtech.png",
+    "128": "poseurtech.png"
+  }
+}
