@@ -1,22 +1,28 @@
 {
-  "name": "Twitter Creation Date",
+  "name": "Born for Twitter",
   "background": { "scripts": ["background.js"] },
   "content_scripts": [ {
-    "all_frames": true,
-    "js": [ "jquery-1.4.2.min.js", "content_script.js" ],
+    "js": [ "mutation_summary.js", "content.js" ],
     "matches": [ 
       "http://twitter.com/*",
       "https://twitter.com/*"
     ],
     "run_at": "document_end"
   } ],
-  "description": "Displays the creation date of Twitter accounts on their profiles.",
-  "permissions": [ "https://api.twitter.com/*" ],
+  "description": "Display when a profile was born on twitter.com. Previously known as Twitter Creation Date.",
+  "permissions": [
+    "https://api.twitter.com/*",
+    "notifications"
+  ],
   "version": "3",
   "icons": {
-    "48": "poseurtech.png",
-    "128": "poseurtech.png"
+    "16": "cracked-twitter.png",
+    "48": "cracked-twitter.png",
+    "128": "cracked-twitter.png"
   },
-  "manifest_version": 2,
-  "minimum_chrome_version": "18"
+  "manifest_version": "2012.5.22",
+  "minimum_chrome_version": "18",
+  "web_accessible_resources": [
+    "cracked-twitter.png"
+  ]
 }
