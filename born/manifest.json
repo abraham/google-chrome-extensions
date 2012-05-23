@@ -11,10 +11,7 @@
   } ],
   "description": "Display when a profile was born on twitter.com. Previously known as Twitter Creation Date.",
   "permissions": [
-    "https://*.twitter.com/*",
-    "https://*.twitter.com/*",
-    "http://twitter.com/*",
-    "http://twitter.com/*",
+    "https://api.twitter.com/*",
     "notifications"
   ],
   "version": "2012.5.22",
