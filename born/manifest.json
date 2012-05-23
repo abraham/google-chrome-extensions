@@ -14,7 +14,7 @@
     "https://api.twitter.com/*",
     "notifications"
   ],
-  "version": "2012.5.22",
+  "version": "2012.5.22.2",
   "icons": {
     "16": "cracked-twitter.png",
     "48": "cracked-twitter.png",
