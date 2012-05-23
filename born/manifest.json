@@ -14,13 +14,13 @@
     "https://api.twitter.com/*",
     "notifications"
   ],
-  "version": "3",
+  "version": "2012.5.22",
   "icons": {
     "16": "cracked-twitter.png",
     "48": "cracked-twitter.png",
     "128": "cracked-twitter.png"
   },
-  "manifest_version": "2012.5.22",
+  "manifest_version": 2,
   "minimum_chrome_version": "18",
   "web_accessible_resources": [
     "cracked-twitter.png"
